@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="3" time="0.367"><testcase classname="pytests.test_index" file="pytests/test_index.py" line="3" name="test_conda_environment_activated" time="0.001394033432006836"></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="6" name="test_access_to_notebook" time="0.0007970333099365234"></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="9" name="test_designed_to_fail" time="0.0021355152130126953"><failure message="AssertionError: This test *should* fail - if it doesn&apos;t, something is wrong!
+assert 4 == 3">def test_designed_to_fail():
+&gt;       assert x == 3, &quot;This test *should* fail - if it doesn&apos;t, something is wrong!&quot;
+E       AssertionError: This test *should* fail - if it doesn&apos;t, something is wrong!
+E       assert 4 == 3
+
+pytests/test_index.py:11: AssertionError</failure></testcase></testsuite>
